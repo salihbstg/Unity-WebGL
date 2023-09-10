@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    content: "";
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    opacity: 0.8;
+}
+#navImg{
+    margin-left: 1.2rem;
+    width: 120px;
+}
+.link{
+    margin-right: 5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.link:hover{
+    transition: 0.3s;
+    color:yellowgreen;
+}
+.ust{
+    margin-right: 10px;
+}
+#about{
+    height: 100%;
+    width: 100%;
+    background-image: url("Resimler/hakkimdaArka.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+}
+#hakkimdaYazi{
+    padding: 10rem;
+}
+#iframeCV{
+    height: 100vw;
+    width: 100vw;
+}
+.alt{
+    float: right;
+}
+#phoneicon{
+    margin-right: 1rem;
+}
+#phone{
+    padding: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+.alt{
+    padding: 3rem;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CD5C5C;
+    margin-top: -5px;
+}
+.alt a{
+    font-size:2rem;
+    padding-right: 1.2rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.alticon{
+    margin-right: 0.5rem;
+}
+.alt a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+#a1:hover{
+    color: black;
+}
+#a1{
+    color: white;
+}
+h1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+p{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 10px;
+}
+@media only screen and (max-width:800px) {
+    #container{
+        flex-direction: column;
+    }
+}
